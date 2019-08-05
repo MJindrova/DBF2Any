@@ -11,22 +11,23 @@ VFP 6 SP3, VFP 7, VFP 8, VFP 9, VFP Advanced, VFP Advanced 64 bit
 
 
 ## Files
-- src\dbf2any.h - header file
-- src\dbf2any_API.h - header file for API functions
-- src\dbf2any.prg - base class
-- src\dbf2mdb.prg - class for export to Microsoft Access
-- src\dbf2mssql.prg - class for export to Microsoft SQL Server
-- src\dbf2mysql.prg - class for export to MySQL/MariaDB
-- src\dbf2oracle.prg - class for export to Oracle
-- src\dbf2sqlce.prg - class for export to Microsoft SQL Server Compact Edition
-- src\template\empty.mdb  - empty mdb file for checking ODBC driver version
-- test\test.dbf/fpt - table for testing
-- test\test.rtf     - rtf file or testing
-- test\test_mdb.prg - test for export to Microsoft Access
-- test\test_mssql.prg - test for export to Microsoft SQL Server
-- test\test_mysql.prg - test for export to MySQL/MariaDB
-- test\test_oracle.prg - test for export to Oracle
-- test\test_sqlce.prg - test for export to Microsoft SQL Server Compact Edition
+src\dbf2any.h - header file
+src\dbf2any_API.h - header file for API functions
+src\dbf2any.prg - base class
+src\dbf2mdb.prg - class for export to Microsoft Access
+src\dbf2mssql.prg - class for export to Microsoft SQL Server
+src\dbf2mysql.prg - class for export to MySQL/MariaDB
+src\dbf2oracle.prg - class for export to Oracle
+src\dbf2sqlce.prg - class for export to Microsoft SQL Server Compact Edition
+src\template\empty.mdb  - empty mdb file for checking ODBC driver version
+
+test\test.dbf/fpt - table for testing
+test\test.rtf     - rtf file or testing
+test\test_mdb.prg - test for export to Microsoft Access
+test\test_mssql.prg - test for export to Microsoft SQL Server
+test\test_mysql.prg - test for export to MySQL/MariaDB
+test\test_oracle.prg - test for export to Oracle
+test\test_sqlce.prg - test for export to Microsoft SQL Server Compact Edition
 
 
 ## Examples
